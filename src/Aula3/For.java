@@ -1,32 +1,29 @@
 package Aula3;
 
-public class For {
-
 import java.util.Scanner;
 
-        public static void main(Strings[] args) {
-
-	    Scanner leia = new Scanner(System.in);
-					
-	     int numero1, numero2;
-					
-	    System.out.println("Digite o primeiro número do intervalo: ");
-	    numero1 = leia.nextInt();
-					
+public class For {
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		int numero1, numero2;
+		
+		System.out.println("Digite o primeiro número do intervalo: ");
+		numero1 = ler.nextInt();
+		
 		System.out.println("Digite o último número do intervalo: ");
-		numero2= leia.nextInt();
-					
-					
+		numero2= ler.nextInt();
+		
+		
 		if (numero1 < numero2) {
-	  System.out.println("\nNo Intervalo entre " + numero1 + " e " + numero2 + ":\n");
-		for (int i = numero1; i < numero2; i++) {
-	    if (i %3 == 0 && i %5 == 0) {
-	  System.out.println(i + " é multiplo de 3 e 5");
-							}
-						}
-	} else {
-	  System.out.println("Intervalo inválido. O primeiro número deve ser menor que o segundo número.");
-					}
-
+			System.out.println("\nNo Intervalo entre " + numero1 + " e " + numero2 + ":\n");
+			for (int i = numero1; i < numero2; i++) {
+				if (i %3 == 0 && i %5 == 0) {
+						System.out.println(i + " é multiplo de 3 e 5");
+				}
+			}
+		} else {
+			 System.out.println("Intervalo inválido. O primeiro número deve ser menor que o segundo número.");
 		}
-
+	}
+}

@@ -2,7 +2,7 @@ package Aula4;
 
 import java.util.Scanner;
 
-public class Matrizes {
+public class Matrizes2 {
 
 	public static void main(String[] args) {
 		int elementos = 3;
@@ -10,6 +10,8 @@ public class Matrizes {
 		int contador = 1;
 		int somaPrincipal = 0, somaSecundaria = 0;
 		
+
+		Scanner leia = new Scanner(System.in);
 		
 		for (int linha = 0; linha < matrizNum.length; linha++) {
 			for (int coluna = 0; coluna < matrizNum[linha].length; coluna++) {
