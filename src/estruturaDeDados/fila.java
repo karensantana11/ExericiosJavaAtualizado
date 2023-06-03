@@ -4,13 +4,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class fila {
-    public static void main(String[] args) {
-        Queue<String> filaClientes = new LinkedList<>();
-        Scanner scanner = new Scanner(System.in);
-        int opcao = -1;
+            public class fila {
+            public static void main(String[] args) {
+            Queue<String> filaClientes = new LinkedList<>();
+            Scanner scanner = new Scanner(System.in);
+            int opcao = -1;
 
-        while (opcao != 0) {
+            while (opcao != 0) {
             System.out.println("===== Menu =====");
             System.out.println("1: Adicionar um novo Cliente na fila");
             System.out.println("2: Listar todos os Clientes na fila");
@@ -48,7 +48,7 @@ public class fila {
                     System.out.println("Opção inválida. Tente novamente.");
                     break;
             }
-            System.out.println();
+                    System.out.println();
         }
     }
 }
